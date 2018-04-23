@@ -62,7 +62,7 @@ if(CUDA_FOUND)
   endif()
 
   set(__cuda_arch_ptx "")
-  elseif(CUDA_GENERATION STREQUAL "Kepler")
+  if(CUDA_GENERATION STREQUAL "Kepler")
     set(__cuda_arch_bin "3.0 3.5 3.7")
   elseif(CUDA_GENERATION STREQUAL "Maxwell")
     set(__cuda_arch_bin "5.0 5.2")
