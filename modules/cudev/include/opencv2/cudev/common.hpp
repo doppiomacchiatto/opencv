@@ -46,6 +46,7 @@
 #ifndef OPENCV_CUDEV_COMMON_HPP
 #define OPENCV_CUDEV_COMMON_HPP
 
+#include <cuda_fp16.h>
 #include <cuda_runtime.h>
 #include "opencv2/core/cuda.hpp"
 #include "opencv2/core/cuda_stream_accessor.hpp"
